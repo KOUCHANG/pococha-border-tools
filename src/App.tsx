@@ -141,8 +141,8 @@ export function App() {
           </article>
           <article className={styles.featureCard}>
             <span>02</span>
-            <h3>後花火計算</h3>
-            <p>現在値と目標値から、判断に必要な目安を手早く計算できるようにします。</p>
+            <h3>ボーダーまでの花火数</h3>
+            <p>現在値と目標ボーダーから、必要な花火数の目安を手早く計算できるようにします。</p>
             <small>計算機能は次のステップ</small>
           </article>
         </section>
