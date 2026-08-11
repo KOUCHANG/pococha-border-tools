@@ -1,0 +1,354 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_kind": "pococha_border_history",
+  "generated_at": "2026-08-11T19:46:18+09:00",
+  "source": {
+    "name": "LIVER CAMPUS Pocochaランクボーダー早見表",
+    "url": "https://one-carat.com/campus/archives/category/streamer-tips/pococha-rank-border"
+  },
+  "unit": "support_point",
+  "observations": [
+    {
+      "target_date": "2026-08-08",
+      "close_time": "13:00",
+      "ranks": [
+        {
+          "rank": "D1",
+          "border_zero": 2600,
+          "border_plus_1": 11300,
+          "border_plus_2": 22800
+        },
+        {
+          "rank": "D2",
+          "border_zero": 7600,
+          "border_plus_1": 23400,
+          "border_plus_2": 52300
+        },
+        {
+          "rank": "D3",
+          "border_zero": 12600,
+          "border_plus_1": 58200,
+          "border_plus_2": 87500
+        },
+        {
+          "rank": "C1",
+          "border_zero": 41200,
+          "border_plus_1": 89900,
+          "border_plus_2": 132300
+        },
+        {
+          "rank": "C2",
+          "border_zero": 64800,
+          "border_plus_1": 141200,
+          "border_plus_2": 197700
+        },
+        {
+          "rank": "C3",
+          "border_zero": 92600,
+          "border_plus_1": 166500,
+          "border_plus_2": 278600
+        },
+        {
+          "rank": "B1",
+          "border_zero": 146900,
+          "border_plus_1": 211400,
+          "border_plus_2": 342300
+        },
+        {
+          "rank": "B2",
+          "border_zero": 174700,
+          "border_plus_1": 302600,
+          "border_plus_2": 492400
+        },
+        {
+          "rank": "B3",
+          "border_zero": 190000,
+          "border_plus_1": 342300,
+          "border_plus_2": 514500
+        },
+        {
+          "rank": "A1",
+          "border_zero": 192700,
+          "border_plus_1": 446600,
+          "border_plus_2": 576100
+        },
+        {
+          "rank": "A2",
+          "border_zero": 272300,
+          "border_plus_1": 480100,
+          "border_plus_2": 611100
+        },
+        {
+          "rank": "A3",
+          "border_zero": 272300,
+          "border_plus_1": 480100,
+          "border_plus_2": 611100
+        },
+        {
+          "rank": "S1",
+          "border_zero": 261800,
+          "border_plus_1": 454500,
+          "border_plus_2": 658300
+        },
+        {
+          "rank": "S2",
+          "border_zero": 308300,
+          "border_plus_1": 537200,
+          "border_plus_2": 848100
+        },
+        {
+          "rank": "S3",
+          "border_zero": 348500,
+          "border_plus_1": 697000,
+          "border_plus_2": 1194200
+        },
+        {
+          "rank": "S4",
+          "border_zero": 385400,
+          "border_plus_1": 776800,
+          "border_plus_2": 1194200
+        },
+        {
+          "rank": "S5",
+          "border_zero": 468100,
+          "border_plus_1": 921400,
+          "border_plus_2": 1234500
+        },
+        {
+          "rank": "S6",
+          "border_zero": 543800,
+          "border_plus_1": 1189300,
+          "border_plus_2": 1744800
+        }
+      ]
+    },
+    {
+      "target_date": "2026-08-09",
+      "close_time": "22:00",
+      "ranks": [
+        {
+          "rank": "D1",
+          "border_zero": 2500,
+          "border_plus_1": 9500,
+          "border_plus_2": 17300
+        },
+        {
+          "rank": "D2",
+          "border_zero": 8600,
+          "border_plus_1": 20000,
+          "border_plus_2": 29800
+        },
+        {
+          "rank": "D3",
+          "border_zero": 16500,
+          "border_plus_1": 51600,
+          "border_plus_2": 72700
+        },
+        {
+          "rank": "C1",
+          "border_zero": 41500,
+          "border_plus_1": 81800,
+          "border_plus_2": 114100
+        },
+        {
+          "rank": "C2",
+          "border_zero": 65300,
+          "border_plus_1": 142300,
+          "border_plus_2": 180200
+        },
+        {
+          "rank": "C3",
+          "border_zero": 93300,
+          "border_plus_1": 215200,
+          "border_plus_2": 280700
+        },
+        {
+          "rank": "B1",
+          "border_zero": 140800,
+          "border_plus_1": 274800,
+          "border_plus_2": 369600
+        },
+        {
+          "rank": "B2",
+          "border_zero": 178800,
+          "border_plus_1": 358400,
+          "border_plus_2": 496100
+        },
+        {
+          "rank": "B3",
+          "border_zero": 210900,
+          "border_plus_1": 407200,
+          "border_plus_2": 541500
+        },
+        {
+          "rank": "A1",
+          "border_zero": 205700,
+          "border_plus_1": 450000,
+          "border_plus_2": 580400
+        },
+        {
+          "rank": "A2",
+          "border_zero": 294400,
+          "border_plus_1": 545300,
+          "border_plus_2": 739500
+        },
+        {
+          "rank": "A3",
+          "border_zero": 233300,
+          "border_plus_1": 623800,
+          "border_plus_2": 836800
+        },
+        {
+          "rank": "S1",
+          "border_zero": 398500,
+          "border_plus_1": 702200,
+          "border_plus_2": 934200
+        },
+        {
+          "rank": "S2",
+          "border_zero": 469300,
+          "border_plus_1": 932100,
+          "border_plus_2": 1170700
+        },
+        {
+          "rank": "S3",
+          "border_zero": 545700,
+          "border_plus_1": 1016900,
+          "border_plus_2": 1407100
+        },
+        {
+          "rank": "S4",
+          "border_zero": 604000,
+          "border_plus_1": 1087500,
+          "border_plus_2": 1655200
+        },
+        {
+          "rank": "S5",
+          "border_zero": 747600,
+          "border_plus_1": 1402000,
+          "border_plus_2": 2158700
+        },
+        {
+          "rank": "S6",
+          "border_zero": 1021500,
+          "border_plus_1": 2008900,
+          "border_plus_2": 3892600
+        }
+      ]
+    },
+    {
+      "target_date": "2026-08-09",
+      "close_time": "24:00",
+      "ranks": [
+        {
+          "rank": "D1",
+          "border_zero": 3700,
+          "border_plus_1": 11300,
+          "border_plus_2": 18000
+        },
+        {
+          "rank": "D2",
+          "border_zero": 8700,
+          "border_plus_1": 23900,
+          "border_plus_2": 33300
+        },
+        {
+          "rank": "D3",
+          "border_zero": 20800,
+          "border_plus_1": 55400,
+          "border_plus_2": 85700
+        },
+        {
+          "rank": "C1",
+          "border_zero": 39200,
+          "border_plus_1": 81600,
+          "border_plus_2": 108100
+        },
+        {
+          "rank": "C2",
+          "border_zero": 61700,
+          "border_plus_1": 134400,
+          "border_plus_2": 186200
+        },
+        {
+          "rank": "C3",
+          "border_zero": 83100,
+          "border_plus_1": 203300,
+          "border_plus_2": 265200
+        },
+        {
+          "rank": "B1",
+          "border_zero": 132100,
+          "border_plus_1": 259600,
+          "border_plus_2": 349200
+        },
+        {
+          "rank": "B2",
+          "border_zero": 169000,
+          "border_plus_1": 338600,
+          "border_plus_2": 468700
+        },
+        {
+          "rank": "B3",
+          "border_zero": 191300,
+          "border_plus_1": 384700,
+          "border_plus_2": 511700
+        },
+        {
+          "rank": "A1",
+          "border_zero": 241600,
+          "border_plus_1": 425200,
+          "border_plus_2": 548400
+        },
+        {
+          "rank": "A2",
+          "border_zero": 258300,
+          "border_plus_1": 515300,
+          "border_plus_2": 698700
+        },
+        {
+          "rank": "A3",
+          "border_zero": 344200,
+          "border_plus_1": 589400,
+          "border_plus_2": 790700
+        },
+        {
+          "rank": "S1",
+          "border_zero": 260700,
+          "border_plus_1": 663500,
+          "border_plus_2": 882700
+        },
+        {
+          "rank": "S2",
+          "border_zero": 443500,
+          "border_plus_1": 880700,
+          "border_plus_2": 1106100
+        },
+        {
+          "rank": "S3",
+          "border_zero": 489800,
+          "border_plus_1": 960800,
+          "border_plus_2": 1329500
+        },
+        {
+          "rank": "S4",
+          "border_zero": 570700,
+          "border_plus_1": 1027500,
+          "border_plus_2": 1563900
+        },
+        {
+          "rank": "S5",
+          "border_zero": 586100,
+          "border_plus_1": 1324600,
+          "border_plus_2": 2039700
+        },
+        {
+          "rank": "S6",
+          "border_zero": 965100,
+          "border_plus_1": 1898100,
+          "border_plus_2": 3677900
+        }
+      ]
+    }
+  ]
+}
