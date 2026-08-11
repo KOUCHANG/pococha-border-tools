@@ -1,9 +1,10 @@
 node_modules/
 dist/
+coverage/
+*.tsbuildinfo
 .DS_Store
 Thumbs.db
 *.log
 .env
 .env.*
 !.env.example
-

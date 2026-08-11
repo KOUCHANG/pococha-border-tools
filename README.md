@@ -14,7 +14,26 @@ Pococha配信者向けの小規模な支援サイトです。現在は実装準�
 
 公開用データは、構文・範囲・時系列整合性などの検証に合格した場合だけ更新します。検証できない値を推測して公開することはしません。
 
+## 技術構成
+
+- React / TypeScript（strict）/ Vite
+- Chart.js
+- CSS Modules
+- Vitest / Testing Library / ESLint
+
+## ローカル確認
+
+Node.js 24 LTSとnpmを使用します。
+
+```powershell
+npm install
+npm run check
+npm run dev
+```
+
+`npm run check` はlint、型検査、テスト、production buildを順番に実行します。
+
 ## 現在の状態
 
-リポジトリ境界を準備した段階です。GitHub Pages、データ取得、アクセス解析はまだ有効化していません。
+静的MVPのフロントエンド基盤と、公開JSONを推測なしで検証する読み込み境界を準備しています。GitHub Pagesとアクセス解析はまだ有効化していません。
 

@@ -1,0 +1,57 @@
+:root {
+  color: #edf8ff;
+  background: #06101c;
+  font-family: Inter, "Noto Sans JP", "Yu Gothic UI", "Yu Gothic", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --text: #edf8ff;
+  --muted: #94a9bb;
+  --cyan: #54e7ff;
+  --violet: #ac8cff;
+  --amber: #ffc46b;
+  --line: rgba(129, 184, 214, 0.18);
+  --grid: rgba(84, 231, 255, 0.055);
+  --mono: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+  --shadow: 0 28px 80px rgba(0, 0, 0, 0.28);
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #06101c;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 76% 5%, rgba(83, 73, 186, 0.19), transparent 33%),
+    radial-gradient(circle at 8% 34%, rgba(24, 123, 152, 0.11), transparent 29%),
+    linear-gradient(180deg, #071321 0%, #06101c 58%, #040b13 100%);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(84, 231, 255, 0.3);
+  color: white;
+}
+
+:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
