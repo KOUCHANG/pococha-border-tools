@@ -62,6 +62,7 @@ describe('App', () => {
     await waitFor(() => expect(screen.getByText('VERIFIED')).toBeInTheDocument())
     expect(screen.getByText('18段階')).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: 'ボーダー履歴' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'ボーダーまでの花火数' })).toBeInTheDocument()
     expect(screen.getByRole('img', { name: 'D1ランクのボーダー履歴グラフ' })).toBeInTheDocument()
     expect(screen.getByRole('table', { name: 'D1ランクの観測値' })).toHaveTextContent('2026-08-10')
 
@@ -83,5 +84,6 @@ describe('App', () => {
     expect(await screen.findByRole('alert')).toHaveTextContent('不明な値で補完せず')
     expect(screen.queryByText('18段階')).not.toBeInTheDocument()
     expect(screen.queryByRole('heading', { name: 'ボーダー履歴' })).not.toBeInTheDocument()
+    expect(screen.queryByRole('heading', { name: 'ボーダーまでの花火数' })).not.toBeInTheDocument()
   })
 })
