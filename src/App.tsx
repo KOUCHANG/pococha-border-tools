@@ -4,6 +4,7 @@ import {
   type BorderData,
   type BorderObservation,
 } from './data/borderData.ts'
+import { BorderHistoryChart } from './components/BorderHistoryChart.tsx'
 import styles from './App.module.css'
 
 type LoadState =
@@ -128,22 +129,24 @@ export function App() {
           <DataStatus state={state} />
         </section>
 
+        {state.status === 'ready' && <BorderHistoryChart data={state.data} />}
+
         <section className={styles.features} aria-labelledby="features-heading">
           <div className={styles.sectionIntro}>
             <p className={styles.kicker}>NEXT MODULES</p>
-            <h2 id="features-heading">この基盤に追加する機能</h2>
+            <h2 id="features-heading">次に追加する機能</h2>
           </div>
           <article className={styles.featureCard}>
             <span>01</span>
-            <h3>ボーダー履歴</h3>
-            <p>ランク別の推移と、値が確認された時点を分かりやすく表示します。</p>
-            <small>グラフ実装は次のステップ</small>
-          </article>
-          <article className={styles.featureCard}>
-            <span>02</span>
             <h3>ボーダーまでの花火数</h3>
             <p>現在値と目標ボーダーから、必要な花火数の目安を手早く計算できるようにします。</p>
             <small>計算機能は次のステップ</small>
+          </article>
+          <article className={styles.featureCard}>
+            <span>02</span>
+            <h3>参考予測</h3>
+            <p>履歴が十分に蓄積された段階で、予測範囲と過去の評価を分かりやすく表示します。</p>
+            <small>データ蓄積後に実装</small>
           </article>
         </section>
 
