@@ -155,6 +155,9 @@ export function App() {
 
       <footer className={styles.footer}>
         <span>Pococha Border Tools</span>
+        <p className={styles.analyticsNotice}>
+          アクセス状況の把握に、Cookieを使用しないCloudflare Web Analyticsを利用しています。
+        </p>
         <span>Small, verifiable, replaceable.</span>
       </footer>
     </div>

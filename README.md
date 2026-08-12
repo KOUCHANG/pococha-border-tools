@@ -14,6 +14,8 @@ Pococha配信者向けの小規模な支援サイトです。現在は実装準�
 
 公開用データは、構文・範囲・時系列整合性などの検証に合格した場合だけ更新します。検証できない値を推測して公開することはしません。
 
+アクセス状況の把握には、Cookieを使用せず個人を追跡しないCloudflare Web Analyticsを利用します。
+
 ## 技術構成
 
 - React / TypeScript（strict）/ Vite
@@ -35,5 +37,5 @@ npm run dev
 
 ## 現在の状態
 
-静的MVPのフロントエンド基盤と、公開JSONを推測なしで検証する読み込み境界を準備しています。GitHub Pagesとアクセス解析はまだ有効化していません。
+静的MVPのフロントエンド基盤と、公開JSONを推測なしで検証する読み込み境界を準備しています。GitHub PagesとCloudflare Web Analyticsを有効化しています。
 
