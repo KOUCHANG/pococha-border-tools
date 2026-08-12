@@ -1,0 +1,203 @@
+.section {
+  background: linear-gradient(145deg, rgba(24, 19, 48, 0.82), rgba(8, 22, 37, 0.94));
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  margin-top: 72px;
+  overflow: hidden;
+}
+
+.heading {
+  align-items: end;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  padding: 28px;
+}
+
+.heading h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  margin: 0;
+}
+
+.heading p:not(.kicker) {
+  color: var(--muted);
+  line-height: 1.7;
+  margin: 10px 0 0;
+}
+
+.kicker,
+.observation span,
+.formGrid label > span,
+.target span,
+.result span {
+  font-family: var(--mono);
+  letter-spacing: 0.08em;
+}
+
+.kicker {
+  color: var(--violet);
+  font-size: 11px;
+  font-weight: 800;
+  margin: 0 0 8px;
+}
+
+.observation {
+  display: grid;
+  flex: 0 0 auto;
+  gap: 5px;
+  text-align: right;
+}
+
+.observation span,
+.observation small {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.body {
+  padding: 28px;
+}
+
+.formGrid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 0.7fr 1fr 1.3fr;
+}
+
+.formGrid label {
+  display: grid;
+  gap: 8px;
+}
+
+.formGrid label > span {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.formGrid select,
+.formGrid input {
+  background: rgba(3, 15, 27, 0.9);
+  border: 1px solid color-mix(in srgb, var(--violet) 42%, var(--line));
+  border-radius: 10px;
+  color: var(--text);
+  min-width: 0;
+  padding: 13px 14px;
+  width: 100%;
+}
+
+.formGrid select {
+  appearance: none;
+  font-weight: 700;
+}
+
+.target {
+  align-items: baseline;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 7px;
+  grid-template-columns: 1fr auto;
+  margin-top: 28px;
+  padding: 20px 0;
+}
+
+.target span,
+.target small {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.target strong {
+  font-size: clamp(28px, 5vw, 48px);
+  font-variant-numeric: tabular-nums;
+  grid-row: 1 / 3;
+  grid-column: 2;
+}
+
+.result {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 146px;
+  padding: 28px 0 12px;
+}
+
+.result > p {
+  color: var(--muted);
+  grid-column: 1 / -1;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.result > div {
+  background: rgba(5, 18, 31, 0.72);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  display: grid;
+  gap: 12px;
+  padding: 22px;
+}
+
+.result span {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.result strong {
+  font-size: clamp(27px, 4vw, 42px);
+  font-variant-numeric: tabular-nums;
+}
+
+.result strong small {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.fireworkCount {
+  border-color: color-mix(in srgb, var(--violet) 55%, var(--line)) !important;
+  box-shadow: inset 0 0 35px rgba(172, 140, 255, 0.08);
+}
+
+.fireworkCount strong {
+  color: #d4c5ff;
+}
+
+.inputError {
+  color: var(--amber) !important;
+}
+
+.note {
+  border-left: 2px solid var(--violet);
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 18px 0 0;
+  padding-left: 14px;
+}
+
+@media (max-width: 700px) {
+  .heading {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .observation {
+    text-align: left;
+  }
+
+  .formGrid,
+  .result {
+    grid-template-columns: 1fr;
+  }
+
+  .target {
+    align-items: start;
+    grid-template-columns: 1fr;
+  }
+
+  .target strong {
+    grid-column: 1;
+    grid-row: auto;
+  }
+}

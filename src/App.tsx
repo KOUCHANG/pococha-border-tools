@@ -5,6 +5,7 @@ import {
   type BorderObservation,
 } from './data/borderData.ts'
 import { BorderHistoryChart } from './components/BorderHistoryChart.tsx'
+import { FireworkCalculator } from './components/FireworkCalculator.tsx'
 import styles from './App.module.css'
 
 type LoadState =
@@ -130,6 +131,7 @@ export function App() {
         </section>
 
         {state.status === 'ready' && <BorderHistoryChart data={state.data} />}
+        {state.status === 'ready' && <FireworkCalculator observation={state.latest} />}
 
         <section className={styles.features} aria-labelledby="features-heading">
           <div className={styles.sectionIntro}>
@@ -138,12 +140,6 @@ export function App() {
           </div>
           <article className={styles.featureCard}>
             <span>01</span>
-            <h3>ボーダーまでの花火数</h3>
-            <p>現在値と目標ボーダーから、必要な花火数の目安を手早く計算できるようにします。</p>
-            <small>計算機能は次のステップ</small>
-          </article>
-          <article className={styles.featureCard}>
-            <span>02</span>
             <h3>参考予測</h3>
             <p>履歴が十分に蓄積された段階で、予測範囲と過去の評価を分かりやすく表示します。</p>
             <small>データ蓄積後に実装</small>
