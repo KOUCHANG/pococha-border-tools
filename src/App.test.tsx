@@ -45,6 +45,7 @@ describe('App', () => {
     expect(screen.getByRole('status')).toHaveTextContent('読み込んでいます')
     await waitFor(() => expect(screen.getByText('VERIFIED')).toBeInTheDocument())
     expect(screen.getByText('18段階')).toBeInTheDocument()
+    expect(screen.getByText(/Cloudflare Web Analytics/)).toHaveTextContent('Cookieを使用しない')
   })
 
   it('fails closed without rendering guessed values', async () => {
